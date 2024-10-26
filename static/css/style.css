@@ -547,9 +547,7 @@ img.img-center {
 .flexslider input{
 	display: none;
 }
-.flexslider #slider1:checked ~ ul li:nth-child(1){
-	display: block;
-}
+.flexslider #slider1:checked ~ ul li:nth-child(1),
 .flexslider #slider2:checked ~ ul li:nth-child(2){
 	display: block;
 }
